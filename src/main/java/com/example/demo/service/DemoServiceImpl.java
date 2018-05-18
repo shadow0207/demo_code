@@ -1,10 +1,8 @@
 package com.example.demo.service;
 
-import java.io.UnsupportedEncodingException;
+
 import java.math.BigInteger;
-import java.net.URLDecoder;
-import java.util.ArrayList;
-import java.util.HashMap;
+
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -96,11 +94,11 @@ public class DemoServiceImpl implements DemoServices{
 	            {
 	               triangleType= equiTriangle;
 	            }
-	            else if ((a == b) & (b != c) || (b == c) & (c!= a)|| (a == c) & (c!= b))
+	            else if ((a == b) && (b != c) || (b == c) && (c!= a)|| (a == c) &&(c!= b))
 	            {
 	            	triangleType= isoTriangle;
 	            }
-	                 else if((a != b) & (b != c))
+	                 else if((a != b) && (b != c))
 	                 {
 	                	 triangleType= scalTriangle;
 	                 }

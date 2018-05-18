@@ -1,0 +1,128 @@
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'handlerExceptionResolver'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcViewResolver'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcViewResolver'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcViewResolver' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'mvcViewResolver'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcViewResolver'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'defaultViewResolver'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'defaultViewResolver'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'defaultViewResolver' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'defaultViewResolver'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewResolver'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'viewResolver'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'viewResolver' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@1f760b47'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'viewResolver' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'beanNameViewResolver'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcViewResolver'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'defaultViewResolver'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning eagerly cached instance of singleton bean 'viewResolver' that is not fully initialized yet - a consequence of a circular reference
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'viewResolver'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'viewResolver'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'welcomePageHandlerMapping'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'welcomePageHandlerMapping'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@5524cca1'
+2018-05-18 11:29:21 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.template.provider.cache' in any property source
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'welcomePageHandlerMapping' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'welcomePageHandlerMapping'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestContextFilter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'requestContextFilter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'requestContextFilter' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'requestContextFilter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'requestContextFilter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hiddenHttpMethodFilter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'hiddenHttpMethodFilter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'hiddenHttpMethodFilter' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'hiddenHttpMethodFilter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'hiddenHttpMethodFilter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'httpPutFormContentFilter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'httpPutFormContentFilter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'httpPutFormContentFilter' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'httpPutFormContentFilter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'httpPutFormContentFilter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$CglibAutoProxyConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$CglibAutoProxyConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$CglibAutoProxyConfiguration' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$CglibAutoProxyConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'jacksonObjectMapperBuilder'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'parameterNamesModule'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'jacksonObjectMapper'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'jsonComponentModule'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'stringHttpMessageConverter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.http.encoding-org.springframework.boot.autoconfigure.http.HttpEncodingProperties'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mappingJackson2HttpMessageConverter'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'messageConverters'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jacksonCodecCustomizer'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'jacksonCodecCustomizer'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'jacksonObjectMapper'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonCodecCustomizer' via factory method to bean named 'jacksonObjectMapper'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'jacksonCodecCustomizer' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'jacksonCodecCustomizer'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.c.LocalVariableTableParameterNameDiscoverer - Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration$$EnhancerBySpringCGLIB$$7f9d318a] - unable to determine constructor/method parameter names
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration' via constructor to bean named 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration'
+2018-05-18 11:29:21 [main] DEBUG o.s.c.LocalVariableTableParameterNameDiscoverer - Cannot find '.class' file for class [class org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration$$EnhancerBySpringCGLIB$$deb91df2] - unable to determine constructor/method parameter names
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration' to allow for resolving potential circular references
+2018-05-18 11:29:21 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration'

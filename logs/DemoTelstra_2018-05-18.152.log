@@ -1,0 +1,73 @@
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mappingJackson2HttpMessageConverter'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration' to allow for resolving potential circular references
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'messageConverters' to allow for resolving potential circular references
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'messageConverters'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcConversionService'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcConversionService'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcConversionService' to allow for resolving potential circular references
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcConversionService'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcValidator'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcValidator'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'defaultValidator'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcValidator' to allow for resolving potential circular references
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'mvcValidator'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcValidator'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'requestMappingHandlerAdapter' to allow for resolving potential circular references
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'requestMappingHandlerAdapter'
+2018-05-18 11:28:16 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1a75e76a: startup date [Fri May 18 11:28:12 IST 2018]; root of context hierarchy
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'requestMappingHandlerAdapter'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'requestMappingHandlerMapping'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcConversionService'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcResourceUrlProvider'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcResourceUrlProvider' to allow for resolving potential circular references
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcResourceUrlProvider'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'requestMappingHandlerMapping' to allow for resolving potential circular references
+2018-05-18 11:28:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'requestMappingHandlerMapping'
+2018-05-18 11:28:16 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.web.context.support.GenericWebApplicationContext@1a75e76a: startup date [Fri May 18 11:28:12 IST 2018]; root of context hierarchy
+2018-05-18 11:28:17 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 request handler methods found on class com.example.demo.controller.DemoController: {public org.springframework.http.ResponseEntity com.example.demo.controller.DemoController.getFibonacci(java.lang.String,com.example.demo.model.CustomResponse,javax.servlet.http.HttpServletResponse)={[/api/Fibonacci],methods=[GET]}, public org.springframework.http.ResponseEntity com.example.demo.controller.DemoController.getReverseWord(java.lang.String,com.example.demo.model.CustomResponse,javax.servlet.http.HttpServletResponse)={[/api/ReverseWords],methods=[GET]}, public org.springframework.http.ResponseEntity com.example.demo.controller.DemoController.getOneArray(com.example.demo.util.ArrayListsCustom,com.example.demo.model.CustomResponse,javax.servlet.http.HttpServletResponse)={[/api/makeonearray],methods=[POST]}, public org.springframework.http.ResponseEntity com.example.demo.controller.DemoController.getTraingleName(java.lang.String,java.lang.String,java.lang.String,com.example.demo.model.CustomResponse,javax.servlet.http.HttpServletResponse)={[/api/TriangleType],methods=[GET]}}
+2018-05-18 11:28:17 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/Fibonacci],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.example.demo.model.CustomResponse> com.example.demo.controller.DemoController.getFibonacci(java.lang.String,com.example.demo.model.CustomResponse,javax.servlet.http.HttpServletResponse)
+2018-05-18 11:28:17 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/ReverseWords],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.example.demo.model.CustomResponse> com.example.demo.controller.DemoController.getReverseWord(java.lang.String,com.example.demo.model.CustomResponse,javax.servlet.http.HttpServletResponse)
+2018-05-18 11:28:17 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/makeonearray],methods=[POST]}" onto public org.springframework.http.ResponseEntity<com.example.demo.model.CustomResponse> com.example.demo.controller.DemoController.getOneArray(com.example.demo.util.ArrayListsCustom,com.example.demo.model.CustomResponse,javax.servlet.http.HttpServletResponse)
+2018-05-18 11:28:17 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/TriangleType],methods=[GET]}" onto public org.springframework.http.ResponseEntity<com.example.demo.model.CustomResponse> com.example.demo.controller.DemoController.getTraingleName(java.lang.String,java.lang.String,java.lang.String,com.example.demo.model.CustomResponse,javax.servlet.http.HttpServletResponse)
+2018-05-18 11:28:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path:/error' in any property source
+2018-05-18 11:28:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path:/error' in any property source
+2018-05-18 11:28:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path' in any property source
+2018-05-18 11:28:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path' in any property source
+2018-05-18 11:28:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path:/error' in any property source
+2018-05-18 11:28:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path:/error' in any property source
+2018-05-18 11:28:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path' in any property source
+2018-05-18 11:28:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path' in any property source
+2018-05-18 11:28:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path:/error' in any property source
+2018-05-18 11:28:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path:/error' in any property source
+2018-05-18 11:28:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path' in any property source
+2018-05-18 11:28:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path' in any property source
+2018-05-18 11:28:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path:/error' in any property source
+2018-05-18 11:28:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path:/error' in any property source
+2018-05-18 11:28:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path' in any property source
+2018-05-18 11:28:17 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path' in any property source
+2018-05-18 11:28:17 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 request handler methods found on class org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController: {public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)={[/error]}, public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)={[/error],produces=[text/html]}}
+2018-05-18 11:28:17 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-18 11:28:17 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-18 11:28:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'requestMappingHandlerMapping'
+2018-05-18 11:28:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcConversionService'
+2018-05-18 11:28:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcValidator'
+2018-05-18 11:28:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-05-18 11:28:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPathMatcher'
+2018-05-18 11:28:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcPathMatcher'
+2018-05-18 11:28:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+2018-05-18 11:28:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcPathMatcher' to allow for resolving potential circular references
+2018-05-18 11:28:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcPathMatcher'
+2018-05-18 11:28:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2018-05-18 11:28:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcUrlPathHelper'
+2018-05-18 11:28:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+2018-05-18 11:28:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcUrlPathHelper' to allow for resolving potential circular references
+2018-05-18 11:28:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcUrlPathHelper'
+2018-05-18 11:28:17 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewControllerHandlerMapping'

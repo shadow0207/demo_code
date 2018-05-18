@@ -1,14 +1,18 @@
 package com.example.demo;
 
 import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.verify;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
+
+import javax.servlet.http.HttpServletResponse;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -24,6 +28,8 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
 import com.example.demo.controller.DemoController;
+import com.example.demo.model.CustomResponse;
+import com.example.demo.service.DemoServiceImpl;
 import com.example.demo.service.DemoServices;
 import com.example.demo.util.ArrayListsCustom;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -34,6 +40,13 @@ public class TelstraCodingApplicationTests {
 
 	private MockMvc demoMvc;
 
+	
+	
+	@InjectMocks
+	DemoServiceImpl services;
+	
+	
+	
 	@Autowired
 	private DemoController demoController;
 
@@ -130,6 +143,24 @@ public class TelstraCodingApplicationTests {
 	
 	}
 	
+	@Test
+	public void testCoverageCheck() throws Exception
+	{
+		
+		//demoController.getFibonacci("10", response, httpServletResponse);
+		BigInteger result=services.computeFibonacci(10);
+		
+		assertEquals( "55",result.toString());
+	}
+	@Test
+	public void testCoverageCheckOne() throws Exception
+	{
+		
+		//demoController.getFibonacci("10", response, httpServletResponse);
+		String result=services.computeReverseString("how");
+		
+		assertEquals( "woh",result);
+	}
 	
 	/*
      * converts a Java object into JSON representation
