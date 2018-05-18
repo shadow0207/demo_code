@@ -1,0 +1,80 @@
+2018-05-18 07:55:16 [http-nio-8080-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'demoController'
+2018-05-18 07:55:16 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/api/TriangleType] is: -1
+2018-05-18 07:55:16 [http-nio-8080-exec-5] INFO  c.example.demo.aspect.LoggingAspect - ============@Before==========
+2018-05-18 07:55:16 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getTraingleName
+2018-05-18 07:55:16 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 07:55:16 [http-nio-8080-exec-5] INFO  c.example.demo.aspect.LoggingAspect - ============@After==========
+2018-05-18 07:55:16 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getTraingleName
+2018-05-18 07:55:16 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - Method arguments : [5, 1, 7, com.example.demo.model.CustomResponse@6f84ec36]
+2018-05-18 07:55:16 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 07:55:16 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - ============@AfterReturning==========
+2018-05-18 07:55:16 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getTraingleName
+2018-05-18 07:55:16 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - Method arguments : [5, 1, 7, com.example.demo.model.CustomResponse@6f84ec36]
+2018-05-18 07:55:16 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 07:55:16 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [com.example.demo.model.CustomResponse@6f84ec36] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7f4d9395]
+2018-05-18 07:55:16 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-05-18 07:55:16 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-05-18 07:55:16 [http-nio-8080-exec-5] DEBUG o.s.b.w.s.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@266e545e
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG o.s.b.w.s.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@266e545e
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/api/TriangleType]
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/TriangleType
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<com.example.demo.model.CustomResponse> com.example.demo.controller.DemoController.getTraingleName(java.lang.String,java.lang.String,java.lang.String,com.example.demo.model.CustomResponse)]
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'demoController'
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/api/TriangleType] is: -1
+2018-05-18 07:55:19 [http-nio-8080-exec-7] INFO  c.example.demo.aspect.LoggingAspect - ============@Before==========
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getTraingleName
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 07:55:19 [http-nio-8080-exec-7] INFO  c.example.demo.aspect.LoggingAspect - ============@After==========
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getTraingleName
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - Method arguments : [5, 1, 7.8, com.example.demo.model.CustomResponse@26a2791e]
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - ============@AfterReturning==========
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getTraingleName
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - Method arguments : [5, 1, 7.8, com.example.demo.model.CustomResponse@26a2791e]
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [com.example.demo.model.CustomResponse@26a2791e] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7f4d9395]
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-05-18 07:55:19 [http-nio-8080-exec-7] DEBUG o.s.b.w.s.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@266e545e
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG o.s.b.w.s.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@266e545e
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/api/TriangleType]
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/TriangleType
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<com.example.demo.model.CustomResponse> com.example.demo.controller.DemoController.getTraingleName(java.lang.String,java.lang.String,java.lang.String,com.example.demo.model.CustomResponse)]
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'demoController'
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/api/TriangleType] is: -1
+2018-05-18 07:55:23 [http-nio-8080-exec-8] INFO  c.example.demo.aspect.LoggingAspect - ============@Before==========
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getTraingleName
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 07:55:23 [http-nio-8080-exec-8] INFO  c.example.demo.aspect.LoggingAspect - ============@After==========
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getTraingleName
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG c.example.demo.aspect.LoggingAspect - Method arguments : [5, 1, .8, com.example.demo.model.CustomResponse@6bca7af5]
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG c.example.demo.aspect.LoggingAspect - ============@AfterReturning==========
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getTraingleName
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG c.example.demo.aspect.LoggingAspect - Method arguments : [5, 1, .8, com.example.demo.model.CustomResponse@6bca7af5]
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [com.example.demo.model.CustomResponse@6bca7af5] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7f4d9395]
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-05-18 07:55:23 [http-nio-8080-exec-8] DEBUG o.s.b.w.s.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@266e545e
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG o.s.b.w.s.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@266e545e
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/api/TriangleType]
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/TriangleType
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<com.example.demo.model.CustomResponse> com.example.demo.controller.DemoController.getTraingleName(java.lang.String,java.lang.String,java.lang.String,com.example.demo.model.CustomResponse)]
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'demoController'
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/api/TriangleType] is: -1
+2018-05-18 08:03:21 [http-nio-8080-exec-6] INFO  c.example.demo.aspect.LoggingAspect - ============@Before==========
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getTraingleName
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 08:03:21 [http-nio-8080-exec-6] INFO  c.example.demo.aspect.LoggingAspect - ============@After==========
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getTraingleName
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - Method arguments : [5, 1, .8, com.example.demo.model.CustomResponse@52a9590]
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - ============@AfterReturning==========
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getTraingleName
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - Method arguments : [5, 1, .8, com.example.demo.model.CustomResponse@52a9590]
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [com.example.demo.model.CustomResponse@52a9590] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7f4d9395]
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-05-18 08:03:21 [http-nio-8080-exec-6] DEBUG o.s.b.w.s.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@266e545e

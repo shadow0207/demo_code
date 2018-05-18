@@ -1,0 +1,64 @@
+2018-05-18 08:05:05 [http-nio-8080-exec-4] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Returning [org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$SpelView@6e2ce67b] based on requested media type 'text/html'
+2018-05-18 08:05:05 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Rendering view [org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$SpelView@6e2ce67b] in DispatcherServlet with name 'dispatcherServlet'
+2018-05-18 08:05:05 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG o.s.b.w.s.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@455149d5
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/api/Fibonacci]
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/Fibonacci
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<com.example.demo.model.CustomResponse> com.example.demo.controller.DemoController.getFibonacci(java.lang.String,com.example.demo.model.CustomResponse,javax.servlet.http.HttpServletResponse)]
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'demoController'
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/api/Fibonacci] is: -1
+2018-05-18 08:05:12 [http-nio-8080-exec-5] INFO  c.example.demo.aspect.LoggingAspect - ============@Before==========
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getFibonacci
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 08:05:12 [http-nio-8080-exec-5] INFO  c.example.demo.aspect.LoggingAspect - ============@After==========
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getFibonacci
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - Method arguments : [11, com.example.demo.model.CustomResponse@4efaa555, org.apache.catalina.connector.ResponseFacade@152a78c3]
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - ============@AfterReturning==========
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getFibonacci
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - Method arguments : [11, com.example.demo.model.CustomResponse@4efaa555, org.apache.catalina.connector.ResponseFacade@152a78c3]
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [com.example.demo.model.CustomResponse@4efaa555] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@15fc442]
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-05-18 08:05:12 [http-nio-8080-exec-5] DEBUG o.s.b.w.s.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@455149d5
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG o.s.b.w.s.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@455149d5
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/api/Fibonacci]
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/Fibonacci
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<com.example.demo.model.CustomResponse> com.example.demo.controller.DemoController.getFibonacci(java.lang.String,com.example.demo.model.CustomResponse,javax.servlet.http.HttpServletResponse)]
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'demoController'
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/api/Fibonacci] is: -1
+2018-05-18 08:05:32 [http-nio-8080-exec-6] INFO  c.example.demo.aspect.LoggingAspect - ============@Before==========
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getFibonacci
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 08:05:32 [http-nio-8080-exec-6] INFO  c.example.demo.aspect.LoggingAspect - ============@After==========
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getFibonacci
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - Method arguments : [10, com.example.demo.model.CustomResponse@4f2e764c, org.apache.catalina.connector.ResponseFacade@152a78c3]
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - ============@AfterReturning==========
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getFibonacci
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - Method arguments : [10, com.example.demo.model.CustomResponse@4f2e764c, org.apache.catalina.connector.ResponseFacade@152a78c3]
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [com.example.demo.model.CustomResponse@4f2e764c] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@15fc442]
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-05-18 08:05:32 [http-nio-8080-exec-6] DEBUG o.s.b.w.s.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@455149d5
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG o.s.b.w.s.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@455149d5
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/api/Fibonacci]
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/Fibonacci
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<com.example.demo.model.CustomResponse> com.example.demo.controller.DemoController.getFibonacci(java.lang.String,com.example.demo.model.CustomResponse,javax.servlet.http.HttpServletResponse)]
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'demoController'
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/api/Fibonacci] is: -1
+2018-05-18 08:05:32 [http-nio-8080-exec-7] INFO  c.example.demo.aspect.LoggingAspect - ============@Before==========
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getFibonacci
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 08:05:32 [http-nio-8080-exec-7] INFO  c.example.demo.aspect.LoggingAspect - ============@After==========
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getFibonacci
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - Method arguments : [10, com.example.demo.model.CustomResponse@4351ee1a, org.apache.catalina.connector.ResponseFacade@152a78c3]
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - ============@AfterReturning==========
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - Method Name : getFibonacci
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - Method arguments : [10, com.example.demo.model.CustomResponse@4351ee1a, org.apache.catalina.connector.ResponseFacade@152a78c3]
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG c.example.demo.aspect.LoggingAspect - *********************************
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [com.example.demo.model.CustomResponse@4351ee1a] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@15fc442]
+2018-05-18 08:05:32 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
